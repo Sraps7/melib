@@ -1,2 +1,2 @@
 # melib
-some small but useful script or module
+some small but useful scripts or modules
