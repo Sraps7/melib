@@ -54,9 +54,9 @@ class EmailMe():
 
 
 if __name__ == "__main__":
-    user_adress = "waqigemingzihaonan@163.com"
-    user_name = "piaoyang"
-    authorization = "NFBGRZBJYQDYUALO"
+    user_adress = "xxx@163.com"
+    user_name = "sraps"
+    authorization = "XXXX"
     passwd = authorization
     mail_host = "smtp.163.com"
     mail_port = 465
@@ -65,9 +65,9 @@ if __name__ == "__main__":
 
     msg = "程序运行完毕"
 
-    receiver_adress = "2817130746@qq.com"
+    receiver_adress = "xxx@qq.com"
     receiver_adress = [user_adress]
-    receiver_name = "piao"
+    receiver_name = "sraps"
     subject = "作业运行情况"
 
     amail.send_email(receiver_adress, receiver_name, msg, subject)
